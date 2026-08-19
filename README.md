@@ -35,6 +35,112 @@ For testing, it is recommended to add the `data-debug="true"` attribute to the o
 <html lang="en" data-debug="true"> ... </html>
 ```
 
+## Example
+Here's an example HTML grid structure:
+
+```html
+<!-- Grid -->
+<div class="row">
+    <div class="col-12 col-md-12 col-lg-12">
+        col-12 col-md-12 col-lg-12
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-6 col-lg-6">
+        col-12 col-md-6 col-lg-6
+    </div>
+    <div class="col-12 col-md-6 col-lg-6">
+        col-12 col-md-6 col-lg-6
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+        col-12 col-md-4 col-lg-4
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        col-12 col-md-4 col-lg-4
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        col-12 col-md-4 col-lg-4
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-3 col-lg-3">
+        col-12 col-md-3 col-lg-3
+    </div>
+    <div class="col-12 col-md-3 col-lg-3">
+        col-12 col-md-3 col-lg-3
+    </div>
+    <div class="col-12 col-md-3 col-lg-3">
+        col-12 col-md-3 col-lg-3
+    </div>
+    <div class="col-12 col-md-3 col-lg-3">
+        col-12 col-md-3 col-lg-3
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-2 col-lg-2">
+        col-12 col-md-2 col-lg-2
+    </div>
+    <div class="col-12 col-md-2 col-lg-2">
+        col-12 col-md-2 col-lg-2
+    </div>
+    <div class="col-12 col-md-2 col-lg-2">
+        col-12 col-md-2 col-lg-2
+    </div>
+    <div class="col-12 col-md-2 col-lg-2">
+        col-12 col-md-2 col-lg-2
+    </div>
+    <div class="col-12 col-md-2 col-lg-2">
+        col-12 col-md-2 col-lg-2
+    </div>
+    <div class="col-12 col-md-2 col-lg-2">
+        col-12 col-md-2 col-lg-2
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+        col-12 col-md-4 col-lg-4
+    </div>
+    <div class="col-12 col-md-8 col-lg-8">
+        col-12 col-md-8 col-lg-8
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-8 col-lg-8">
+        col-12 col-md-8 col-lg-8
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        col-12 col-md-4 col-lg-4
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-3 col-lg-3">
+        col-12 col-md-3 col-lg-3
+    </div>
+    <div class="col-12 col-md-9 col-lg-9">
+        col-12 col-md-9 col-lg-9
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-9 col-lg-9">
+        col-12 col-md-9 col-lg-9
+    </div>
+    <div class="col-12 col-md-3 col-lg-3">
+        col-12 col-md-3 col-lg-3
+    </div>
+</div>
+<!-- / END: Grid -->
+```
+
 ## Development
 
 ### Clone the repository

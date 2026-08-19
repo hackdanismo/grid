@@ -21,10 +21,12 @@
      * <html data-debug="true"> ... </html>
      */
     [data-debug="true"] .row > * {
-        /* Set the background color of each grid cell. */
-        background: #efefef;
-        /* Set a border for each grid cell. */
-        border: 1px solid #000;
+        /* Style each grid cell. */
+        background: #f8f9fa;
+        border: 1px solid #dcdfe3;
+        border-radius: 8px; 
+        /* Set optional padding. Remove if not needed. */
+        padding: 1rem;
     }
     
     .row {
