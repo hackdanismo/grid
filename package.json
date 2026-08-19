@@ -1,0 +1,27 @@
+{
+  "name": "grid",
+  "version": "1.0.0",
+  "engines": {
+    "node": "24.19.0"
+  },
+  "description": "Grid is a 12-column, responsive grid used to create layout and structure for web pages, websites and applications. Open-source and released under the MIT licence.",
+  "main": "index.js",
+  "scripts": {
+    "minify:css": "cleancss -o grid.min.css grid.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackdanismo/grid.git"
+  },
+  "keywords": [],
+  "author": "Dan Jackson",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hackdanismo/grid/issues"
+  },
+  "homepage": "https://github.com/hackdanismo/grid#readme",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
+  }
+}
